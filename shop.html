@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!--SWIPER SLIDER CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+
+
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html"> <img src="images/logo1.png" alt=""></a>
+        </div>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+        </ul>
+        <div class="icons_sec">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="#"><i class="fa-regular fa-user"></i></a>
+            <i class="fa-regular fa-heart"><span>0</span></i>
+            <i class="fa-solid fa-cart-shopping shop-cart"><span>0</span></i>
+            <h3>#550.25</h3>
+        </div>
+        <div class="bars">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+         <div class="cart_container">
+            <div class="cart_heading">
+                <i class="fa-solid fa-xmark close_cart"></i>
+                <h1>Shoping Cart</h1>
+            </div>
+            <div class="cartInProduct">
+                <!-- Product cart 1 -->
+                <div class="Pcart1">
+                    <img src="images/shop/glass1.png" alt="">
+                    <div class="cart_detail">
+                        <h2>Bag</h2>
+                        <p>70.00$</p>
+                    </div>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+                <!-- Product cart 1 -->
+                <div class="Pcart1">
+                    <img src="images/shop/glass2.png" alt="">
+                    <div class="cart_detail">
+                        <h2>Bag</h2>
+                        <p>70.00$</p>
+                    </div>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+                <!-- Product cart 1 -->
+                <div class="Pcart1">
+                    <img src="images/shop/glass5.png" alt="">
+                    <div class="cart_detail">
+                        <h2>Bag</h2>
+                        <p>70.00$</p>
+                    </div>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+                 <!-- Product cart 1 -->
+                 <div class="Pcart1">
+                    <img src="images/shop/glass7.png" alt="">
+                    <div class="cart_detail">
+                        <h2>Bag</h2>
+                        <p>70.00$</p>
+                    </div>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="big-metro-site-container">
+        <header>
+            <div class="contain-about">
+                <h1 class="main_header_text">Shop</h1>
+                <div class="our-site-link">
+                    <a href="index.html">Home</a>
+                    <i class="fa-solid fa-angle-right"></i>
+                    <p>Shop</p>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- SHOP CONTAINER  -->
+
+    <div class="shop_container">
+        <div class="shop_product_container">
+            <div class="shop_header_contain">
+                <h3>Showing 1 – 9 of 103 results</h3>
+                <div class="shop_filter">
+                    <select name="Latest" id="shop_filter_select">
+                        <option value="Latest">Latest</option>
+                        <option value="Latest">Popularity</option>
+                        <option value="Latest">Average Rating</option>
+                        <option value="Latest">Price:low to high</option>
+                        <option value="Latest">Price:high to low</option>
+                    </select>
+                    <i class="fa-solid fa-table-cells-large"></i>
+                    <div class="shop_bars">
+                        <i class="fa-solid fa-list"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="shop_products">
+                <!-- PRODUCT 1 -->
+                <div class="product mix category-a" data-order="1">
+                    <div class="poduct_img">
+                        <img src="images/shop/glass1.png" alt="">
+                        <span>-75%</span>
+                    </div>
+                    <div class="product_detail">
+                        <div class="product_color">
+                            <div class="product_color_pic1"></div>
+                        </div>
+                        <div class="product_color">
+                            <div class="product_color_pic2"></div>
+                        </div>
+                        <div class="product_color">
+                            <div class="product_color_pic3"></div>
+                        </div>
+                    </div>
+                    <p class="shop_product_price">Acetate Frame Sunglasses</p>
+                    <p class="shop_product_price"> <strike>$74.00</strike> <span class="price"> $55.00</span></p>
+                    <div class="shop_product_icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-cart-plus" id="add_cart"></i>
+                    </div>
+                </div>
+                <!-- PRODUCT 2 -->
+                <div class="product mix category-a" data-order="1">
+                    <div class="poduct_img">
+                        <img src="images/shop/glass2.png" alt="">
+                        <span>-75%</span>
+                    </div>
+                    <div class="product_detail">
+                        <div class="product_color">
+                            <div class="product_color_pic1"></div>
+                        </div>
+                        <div class="product_color">
+                            <div class="product_color_pic2"></div>
+                        </div>
+                        <div class="product_color">
+                            <div class="product_color_pic3"></div>
+                        </div>
+                    </div>
+                    <p class="shop_product_price">Wayfarer Sunglasses</p>
+                    <p class="shop_product_price"> <strike>$87.00</strike> <span class="price"> $65.00</span></p>
+                    <div class="shop_product_icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </div>
+                </div>
+                <!-- PRODUCT 3 -->
+                <div class="product mix category-b" data-order="1">
+                    <div class="poduct_img">
+                        <img src="images/shop/glass3.png" alt="">
+                        <span>-75%</span>
+                    </div>
+                    <div class="product_detail">
+                        <div class="product_color">
+                            <div class="product_color_pic1"></div>
+                        </div>
+                        <div class="product_color">
+                            <div class="product_color_pic2"></div>
+                        </div>
+                        <div class="product_color">
+                            <div class="product_color_pic3"></div>
+                        </div>
+                    </div>
+                    <p class="shop_product_price">Path Sunglasses</p>
+                    <p class="shop_product_price"> <strike>$104.00</strike> <span class="price"> $78.00</span></p>
+                    <div class="shop_product_icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </div>
+                </div>
+                <!-- PRODUCT 4 -->
+                <div class="product mix category-b" data-order="1">
+                    <div class="poduct_img">
+                        <img src="images/shop/glass4.png" alt="">
+                        <span>-75%</span>
+                    </div>
+                    <div class="product_detail">
+                        <div class="product_color">
+                            <div class="product_color_pic1"></div>
+                        </div>
+                        <div class="product_color">
+                            <div class="product_color_pic2"></div>
+                        </div>
+                        <div class="product_color">
+                            <div class="product_color_pic3"></div>
+                        </div>
+                    </div>
+                    <p class="shop_product_price">Tory burch Sunglasses</p>
+                    <p class="shop_product_price"> <strike>$94.00</strike> <span class="price"> $70.00</span></p>
+                    <div class="shop_product_icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </div>
+                </div>
+                <!-- PRODUCT 5 -->
+                <div class="product mix category-d" data-order="1">
+                    <div class="poduct_img">
+                        <img src="images/shop/glass5.png" alt="">
+                        <span>-75%</span>
+                    </div>
+                    <div class="product_detail">
+                        <div class="product_color">
+                            <div class="product_color_pic1"></div>
+                        </div>
+                        <div class="product_color">
+                            <div class="product_color_pic2"></div>
+                        </div>
+                        <div class="product_color">
+                            <div class="product_color_pic3"></div>
+                        </div>
+                    </div>
+                    <p class="shop_product_price">Acetate Frame Sunglasses</p>
+                    <p class="shop_product_price"> <strike>$111.00</strike> <span class="price"> $83.00</span></p>
+                    <div class="shop_product_icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </div>
+                </div>
+                <!-- PRODUCT 6 -->
+                <div class="product mix category-d" data-order="1">
+                    <div class="poduct_img">
+                        <img src="images/shop/glass6.png" alt="">
+                        <span>-75%</span>
+                    </div>
+                    <div class="product_detail">
+                        <div class="product_color">
+                            <div class="product_color_pic1"></div>
+                        </div>
+                        <div class="product_color">
+                            <div class="product_color_pic2"></div>
+                        </div>
+                        <div class="product_color">
+                            <div class="product_color_pic3"></div>
+                        </div>
+                    </div>
+                    <p class="shop_product_price">Calamity Sunglasses</p>
+                    <p class="shop_product_price"> <strike>$74.00</strike> <span class="price"> $55.00</span></p>
+                    <div class="shop_product_icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </div>
+                </div>
+                <!-- PRODUCT 7 -->
+                <div class="product mix category-d" data-order="1">
+                    <div class="poduct_img">
+                        <img src="images/shop/glass7.png" alt="">
+                        <span>-75%</span>
+                    </div>
+                    <div class="product_detail">
+                        <div class="product_color">
+                            <div class="product_color_pic1"></div>
+                        </div>
+                        <div class="product_color">
+                            <div class="product_color_pic2"></div>
+                        </div>
+                        <div class="product_color">
+                            <div class="product_color_pic3"></div>
+                        </div>
+                    </div>
+                    <p class="shop_product_price">Aviator Sunglasses</p>
+                    <p class="shop_product_price"> <strike>$87.00</strike> <span class="price"> $65.00</span></p>
+                    <div class="shop_product_icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </div>
+                </div>
+                <!-- PRODUCT 8 -->
+                <div class="product mix category-e" data-order="1">
+                    <div class="poduct_img">
+                        <img src="images/shop/glass9.png" alt="">
+                        <span>-75%</span>
+                    </div>
+                    <div class="product_detail">
+                        <div class="product_color">
+                            <div class="product_color_pic1"></div>
+                        </div>
+                        <div class="product_color">
+                            <div class="product_color_pic2"></div>
+                        </div>
+                        <div class="product_color">
+                            <div class="product_color_pic3"></div>
+                        </div>
+                    </div>
+                    <p class="shop_product_price">Burbank Sunglasses</p>
+                    <p class="shop_product_price"> <strike>$99.00</strike> <span class="price"> $74.00</span></p>
+                    <div class="shop_product_icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </div>
+                </div>
+                <!-- PRODUCT 9 -->
+                <div class="product mix category-e" data-order="1">
+                    <div class="poduct_img">
+                        <img src="images/shop/glass8.png" alt="">
+                        <span>-75%</span>
+                    </div>
+                    <div class="product_detail">
+                        <div class="product_color">
+                            <div class="product_color_pic1"></div>
+                        </div>
+                        <div class="product_color">
+                            <div class="product_color_pic2"></div>
+                        </div>
+                        <div class="product_color">
+                            <div class="product_color_pic3"></div>
+                        </div>
+                    </div>
+                    <p class="shop_product_price">Unisex Sunglasses</p>
+                    <p class="shop_product_price"> <strike>$94.00</strike> <span class="price"> $70.00</span></p>
+                    <div class="shop_product_icon">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-eye"></i>
+                        <i class="fa-solid fa-cart-plus"></i>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="shop_menus">
+            <div class="shop_menu_heading">
+                <h1>Categories</h1>
+            </div>
+
+            <div class="shop_menu_categori">
+                <h2 class="shop_menu_link" data-filter=".category-a">Accessories <span>(8)</span></h2>
+                <h2 class="shop_menu_link" data-filter="all">Air Filter <span>(5)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-a">Body Engine <span>(5)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-d">Brake Parts <span>(7)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-d">Computer <span>(1)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-a">Cosmetics <span>(6)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-b">Covid-19 <span>(2)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-b">Electornics <span>(8)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-a">Frame Sunglasses <span>(10)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-a">Furniture <span>(7)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-b">Genuine Leather <span>(9)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-b">Gift Corners <span>(2)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-d"> Jewellery <span>(8)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-b"> Kid’s Wear <span>(1)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-d">Medical <span>(6)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-d"> Medical Accessories <span>(7)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-a">Men <span>(2)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-a">Modern Furniture <span>(6)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-a">Other Medical <span>(6)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-d"> Shoes <span>(2)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-b"> Sports <span>(3)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-d">Top Rated <span>(7)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-b"> Toys <span>(2)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-b">winter <span>(8)</span></h2>
+                <h2 class="shop_menu_link" data-filter=".category-b">Women <span>(11)</span></h2>
+
+                <div class="categori_color_container">
+                    <h1>Color</h1>
+                    <div class="color_categoir">
+                        <div class="categori_color">
+                            <div class="categori_color_pic1"></div>
+                        </div>
+                        <div class="categori_color">
+                            <div class="categori_color_pic2"></div>
+                        </div>
+                        <div class="categori_color">
+                            <div class="categori_color_pic3"></div>
+                        </div>
+                        <div class="categori_color">
+                            <div class="categori_color_pic4"></div>
+                        </div>
+                        <div class="categori_color">
+                            <div class="categori_color_pic5"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_size">
+                    <h1>Size </h1>
+                    <div class="color_categoir">
+                        <div class="Psize">
+                            <div class="sizeL">L</div>
+                        </div>
+                        <div class="Psize">
+                            <div class="sizeM">M</div>
+                        </div>
+                        <div class="Psize">
+                            <div class="sizeS">S</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <footer>
+        <div class="hero_footer">
+            <div class="address">
+                <img src="images/logo-light.png" alt="">
+
+                <div class="info"><i class="fa-solid fa-location-dot"></i>
+                    <h3>59 Street, Newyork City, Rose Town, 05 Rive House
+                    </h3>
+                </div>
+                <div class="info"><i class="fa-solid fa-phone"></i>
+                    <h3>+123 456 7890</h3>
+                </div>
+                <div class="info"> <i class="fa-solid fa-envelope"></i>
+                    <h3>info@example.com</h3>
+                </div>
+            </div>
+            <div class="information">
+                <h1>information</h1>
+
+                <a href="#">about us</a>
+                <a href="#">latest post</a>
+                <a href="#">Selling Tips</a>
+                <a href="#">Advertising</a>
+                <a href="#">Contact Us</a>
+
+            </div>
+            <div class="information">
+                <h1>My Account</h1>
+
+                <a href="#">My Account</a>
+                <a href="#">Login/Register</a>
+                <a href="#">Cart</a>
+                <a href="#">Wishlist</a>
+                <a href="#">Order History</a>
+
+            </div>
+            <div class="information">
+                <h1>Help an support</h1>
+
+                <a href="#">How to shop</a>
+                <a href="#">Payment</a></li>
+                <a href="#">Returns</a>
+                <a href="#">Delivery</a>
+                <a href="#">Privacy & Cookie Policy</a>
+
+            </div>
+        </div>
+        <hr>
+        <div class="last-section">
+            <h3>© Copyright Metro 2020. Designed and Developed by RadiusTheme</h3>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="icons">
+                <img src="./images/payment1.png" alt="">
+                <img src="./images/payment2.png " alt="">
+                <img src="./images/payment3.png" alt="">
+                <img src="./images/payment4.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script>
+        var mixer = mixitup('.shop_products');
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
